@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pedra | Papel | Tesoura</title>
+</head>
+<body>
+
+    <div id="container">
+        <h1>Pedra | Papel | Tesoura</h1>
+
+        <div id="buttons">
+            <button id="stone" onclick="playHuman('stone')">🪨</button>
+            <button id="paper" onclick="playHuman('paper')">📜</button>
+            <button id="scissors" onclick="playHuman('scissors')">✂</button>
+        </div>
+
+        <p id="result"></p>
+        <p id="your-score">Sua Pontuação: <span id="my-score">0</span></p>
+        <p id="bot-score">Pontuação do Bot: <span id="score-bot">0</span></p>
+
+    </div>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
