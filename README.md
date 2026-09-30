@@ -109,8 +109,4 @@ https://riannlucass.github.io/pedra-papel-ou-tesoura/
 
 ---
 
-⭐ Se você gostou do projeto, considere deixar uma estrela no repositório!
-
----
-
 
